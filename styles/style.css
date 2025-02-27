@@ -484,7 +484,8 @@ summary{
 
 
 .five_section_container h2{
-    font-size: 25px;
+    font-size: 15px;
+    padding: 5px;
     margin-top: 40px;
 
 }
@@ -522,45 +523,45 @@ summary{
 }
 
 
-.html{
-    animation: html 3s linear forwards;
+.Web_App_Development{
+    animation: web_app 3s linear forwards;
 }
-.css{
-    animation: css 3s linear forwards;
+.Media_buying_Analytics{
+    animation: media 3s linear forwards;
 }
-.javaScript{
-    animation: javascript 3s linear forwards;
+.Content_Creation{
+    animation: content-c 3s linear forwards;
 }
-.react{
-    animation: react 3s linear forwards;
+.Interactive_Marketing{
+    animation: interactive 3s linear forwards;
 }
-.php{
-    animation: php 3s linear forwards;
+.ERP_Software{
+    animation: erp 3s linear forwards;
 }
 
-@keyframes html {
+@keyframes web_app {
     100%{
         width: 90%;
     }
 }
-@keyframes css{
+@keyframes media{
     100%{
         width: 85%;
     }
 }
-@keyframes javascript {
+@keyframes content-c {
     100%{
         width: 80%;
     }
 }
-@keyframes react {
+@keyframes interactive {
     100%{
         width: 70%;
     }
 }
-@keyframes php {
+@keyframes erp {
     100%{
-        width: 60%;
+        width: 90%;
     }
 }
 
