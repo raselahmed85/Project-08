@@ -1,0 +1,707 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/***********************
+ * THIS IS A CONTAINER *
+ ***********************/
+
+.container{
+    background-color: #fcfcfc;
+}
+
+
+header{
+    position: sticky;
+    top:0;
+    z-index: 100;
+    background-color:white;
+}
+
+.headerContainer{
+    display: grid;
+    grid-template-columns: 1fr 3fr 4fr;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+    box-shadow: #e5e5e5 2px 2px 10px;
+}
+
+
+.treeLine{
+    font-size: 22px;
+}
+
+.treeLine i{
+    padding: 20px;
+    border-radius: 50%;
+    transition: 0.4s ease-in-out;
+    margin-left:30%;
+
+}
+
+.treeLine a i:hover{
+    background-color: #d90a2c;
+    color:white;
+}
+
+
+.logo{
+    margin-left: 10%;
+}
+
+
+.navbar{
+}
+
+
+.navmanu ul{
+    display: flex;
+
+}
+
+
+.navmanu ul li{
+    margin: 10px 17px;
+    list-style: none;
+}
+
+
+.navmanu ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto", serif;
+}
+
+.navmanu ul li a:hover{
+    color: #d90a2c;
+    transition: 0.2s ease-in-out;
+}
+
+.letsTalk a{
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto", serif;
+}
+.letsTalk{
+    border-radius: 5px;
+    background-color: black;
+    padding:10px 15px;
+    color: white;
+}
+.letsTalk:hover{
+    background-color: #d90a2c;
+    transition: 0.2s ease-in-out;
+}
+
+
+
+
+/*****************************
+ *  THIS IS A MAIN DIV **** 
+ *****************************/
+
+
+main{
+
+}
+
+.mainContainer{
+
+}
+
+
+/***************************************
+ * /* THIS IS A FIRST SECTION START * *
+ ***************************************/
+
+.firsSection{
+    /* background-color: black; */
+    height: 150vh;
+    display: flex;
+}
+
+
+.firstHeadingimags{
+    width: 50%;
+    margin-left: 30px;
+    background-image: url(/images/coworkers-sitting-with-blueprint.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150vh;
+    position: relative;
+
+    animation: firstHeadingImag 3s ease;
+}
+
+@keyframes firstHeadingImag {
+    0%{
+        transform: translateX(-100px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+    
+}
+
+.roundShape{
+    background-color:#d90a2c;
+    height:750px;
+    width: 60%;
+    border-radius: 50%;
+    position: absolute;
+    margin-top:5%; 
+    margin-left: 35%;
+
+    animation: roundShape 3s ease;
+
+}
+
+
+@keyframes roundShape {
+    0%{
+        transform: translateX(100px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+.textarear{
+    margin-top: 20%;
+    width: 70%;
+    margin-left: 16%;
+    color: white;
+}
+.textarear h2{
+    font-size: 45px;
+    text-align:center;
+}
+.textarear p{
+    font-size: 18px;
+    text-align:justify;
+    /* font-weight: 600; */
+}
+
+
+.getStartedBtn{
+    position: absolute;
+    margin-top:10%;
+    margin-left:35%;
+    width: 150px;
+    height: 45px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+}
+.getStartedBtn a{
+    text-decoration: none;
+    color: white;
+}
+.getStartedBtn:hover{
+    background-color: #d90a2c;
+    transition: 0.3s ease-in-out;
+}
+
+
+
+/*****************************************
+ * /* MAIN DIV SECOND SECOTION START  * *
+ *****************************************/
+
+.second_container{
+    display: flex;
+    background-color: black;
+    height: 150vh;
+}
+
+
+
+
+.second_Left{
+    width: 45%;
+    color: white;
+    margin-top: 50px;
+    margin-left: 8%;
+
+    animation: second_Left 1.5s ease;
+}
+
+
+@keyframes second_Left {
+    0%{
+        transform: translateY(300px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+.second_Left span{
+    font-size: 18px;
+    font-weight: normal;
+    color: rgb(194, 194, 194);
+    letter-spacing: 2px;
+}
+
+.second_Left h1{
+    font-size: 50px;
+    padding: 0 10px;
+    font-family: "Bebas Neue", serif;
+    letter-spacing: 5px;
+}
+
+
+
+.second_Right{
+    width: 55%;
+    color: white;
+    display: grid;
+    column-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 80px;
+
+    animation: second_Right 1.5s ease;
+}
+
+@keyframes second_Right {
+    0%{
+        transform: translateY(200px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+
+.second_right_6icon{
+    color: #d90a2c;
+    font-size: 30px;
+    padding: 10px;
+}
+
+
+.second_Right h3{
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+
+.second_Right p{
+    font-size: 15px;
+    padding: 10px;
+    color: rgb(227, 227, 227);
+}
+
+
+
+
+
+/******************************
+ * /* THIRD SECTION START  * *
+ ******************************/
+
+.thirdSection{
+    display: flex;
+}
+
+
+/*  */
+
+.third_Section_Left_Div{
+width: 50%;
+}
+
+
+.third_Section_left_Child{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.63),rgba(0, 0, 0, 0.63)), url(/images/visa-application-form-composition.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit: fill;
+    width: 100%;
+    padding: 30px;
+    height: 400px;
+    padding-left:10%;
+
+}
+
+
+.animation_div{
+    animation: third_Section_left_Child 1.5s 2 ;
+}
+
+@keyframes third_Section_left_Child {
+    0%{
+        transform: translateX(150px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+    
+}
+
+.third_Section_left_Child h5{
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+}
+
+.third_Section_left_Child p{
+    font-size: 35px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    text-align: left;
+    padding:10px;
+    color:white;
+    font-family: "Bebas Neue", serif;
+}
+.view_Btn{
+    width: 180px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 50px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.view_Btn:hover{
+    background-color: #d90a2c;
+}
+
+
+
+.third_Section_Right_Div {
+width: 50%;
+/* border: 2px solid red; */
+}
+.third_Section_right_Child{
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    background-image: linear-gradient(#da0a2ddd,#da0a2ddd), url(/images/businessman-pointing-contract.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit: fill;
+    padding: 30px;
+}
+.third_Section_right_Child h5{
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+}
+.third_Section_right_Child p{
+    font-size: 35px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    text-align: left;
+    padding:10px;
+    color: white;
+    font-family: "Bebas Neue", serif;
+}
+
+
+
+
+/****************************
+ * /* FOUR SECTION START * *
+ ****************************/
+
+.four_Section{
+    display: flex;
+}
+
+.four_section_left{
+    height: auto;
+    width: 50%;
+    padding-left:3%;
+}
+
+.four_section_left h1{
+    font-size: 40px;
+    text-align:left;
+    padding: 40px 50px;
+    font-weight: lighter;
+    font-family: "Teko", serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+.four_section_right{
+    height:auto;
+    width: 50%;
+}
+
+.four_section_right_ul_li {
+    width: 80%;
+    margin: 10% auto;
+}
+
+.four_section_right_ul_li ul li {
+    list-style: none;
+    padding: 10px 0;
+}
+.four_section_right_ul_li_pera{
+    font-family: 'roboto';
+    color: #2d2d2d;
+    padding:10px;
+    text-align: justify;
+}
+
+summary{
+    font-weight: bold;
+}
+
+
+
+
+/*********************************
+ * /* THIS IS A FIVE SECTION  * *
+ *********************************/
+
+.five_section_progessbar{
+}
+
+.five_section_container{
+    width: 60%;
+    padding-bottom: 40px;
+    padding-left: 8%;
+}
+
+
+.five_section_container h2{
+    font-size: 25px;
+    margin-top: 40px;
+
+}
+.progess_bar{
+    background-color: brown;
+    width: 100%;
+    height: 10px;
+    border-radius: 40px;
+
+}
+
+.progess_bar div{
+    border-radius: 40px;
+    height: 10px;
+    width:0;
+    background-color:green;
+}
+
+.progess_bar div span{
+    height: 35px;
+    width: 35px;
+    background-color: wheat;
+    color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    margin-top: -15px;
+    font-size: 12px;
+}
+
+.progess_bar span{
+    border: 1px solid red;
+}
+
+
+.html{
+    animation: html 3s linear forwards;
+}
+.css{
+    animation: css 3s linear forwards;
+}
+.javaScript{
+    animation: javascript 3s linear forwards;
+}
+.react{
+    animation: react 3s linear forwards;
+}
+.php{
+    animation: php 3s linear forwards;
+}
+
+@keyframes html {
+    100%{
+        width: 90%;
+    }
+}
+@keyframes css{
+    100%{
+        width: 85%;
+    }
+}
+@keyframes javascript {
+    100%{
+        width: 80%;
+    }
+}
+@keyframes react {
+    100%{
+        width: 70%;
+    }
+}
+@keyframes php {
+    100%{
+        width: 60%;
+    }
+}
+
+
+/*************************************
+ * /* THIS IS A SIX SECTION START  * *
+ *************************************/
+
+
+.six_section_client_container{
+    background-color: #ffecec;
+    
+}
+
+
+.client_logo_list{
+    background-color: #ffecec;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 30px;
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 50px;
+
+    animation: client_logo_list 0.5s ease;
+}
+
+@keyframes client_logo_list {
+    100%{
+        
+    }
+}
+
+.image-box{
+width: 60%;
+margin: 0 auto;
+}
+
+.image-box .images{
+    width: 100%;
+    padding: 10px 20px;
+    border: 1.5px solid #e0e0e0;
+    border-radius: 5px;
+    transition: 0.3s ease-in;
+}
+.image-box .images:hover{
+    background-color: #7f4c56;
+    color: white;
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+
+
+
+/*********************************
+ * THIS IS A SEVEN XECTION START *
+ *********************************/
+
+.seven_container{
+    display: flex;
+    column-gap: 10px;
+}
+
+.seven_4div{
+    padding-left: 30px;
+    margin-top: 40px;
+}
+
+.fa-ellipsis-vertical{
+    font-size: 30px;
+    color: #d90a2c;
+    float: left;
+    padding: 20px 0;
+}
+
+
+.seven_first_section{
+    width: 25%;
+    height: 300px;
+}
+.seven_second_section{
+    width: 25%;
+}
+.seven_third_section{
+    width: 25%;
+}
+.seven_four_section{
+    width: 25%;
+}
+
+
+
+/**********************
+ * /* FOOTER SECTION START * *
+ **********************/
+
+.footer_container{
+    background-color: black;
+
+}
+
+.footer_content{
+    display: flex;
+    column-gap: 20px;
+    color: white;
+    border-bottom: 0.5px solid #787878;
+}
+
+.footer_4div{
+    padding: 50px 20px;
+}
+
+
+
+.footer_logo{
+    width: 25%;
+    height: 250px;
+}
+.footer_address{
+    width: 25%;
+    height: 250px;
+}
+.footer_email{
+    width: 25%;
+    height: 250px;
+}
+.footer_navigate{
+    width: 25%;
+    height: 250px;
+}
+.footer_navigate .fa-brands:hover{
+    background-color:#d90a2c;
+}
+
+
+
+
+.footer_secotion_2nd{
+    height: 80px;
+    padding: 40px 30px;
+}
+
+
