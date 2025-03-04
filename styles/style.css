@@ -127,7 +127,7 @@ main{
 .firstHeadingimags{
     width: 50%;
     margin-left: 30px;
-    background-image: url(/all_images/image_01.jpg);
+    background-image: url(../all_images/image_01.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -319,7 +319,7 @@ width: 50%;
 
 
 .third_Section_left_Child{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.63),rgba(0, 0, 0, 0.63)), url(/all_images/image_03.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.63),rgba(0, 0, 0, 0.63)), url(../all_images/image_03.jpg);
     background-size: cover;
     background-position: center;
     object-fit: fill;
@@ -387,7 +387,7 @@ width: 50%;
     width: 100%;
     height: 400px;
     margin: 0 auto;
-    background-image: linear-gradient(#da0a2ddd,#da0a2ddd), url(/all_images/image_02.jpg);
+    background-image: linear-gradient(#da0a2ddd,#da0a2ddd), url(../all_images/image_02.jpg);
     background-size: cover;
     background-position: center;
     object-fit: fill;
